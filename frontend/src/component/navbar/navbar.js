@@ -62,8 +62,11 @@ const Navbar = () => {
       </div>
       <div className="Main-navbar-mid-box">
         <div
-         
-          className="Main-navbar-mid-box-div "
+          style={{
+            position: "relative",
+            top: ".7vw",
+          }}
+          className="Main-navbar-mid-box-div"
         >
           Home
         </div>
