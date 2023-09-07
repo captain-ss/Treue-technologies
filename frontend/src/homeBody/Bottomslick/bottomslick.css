@@ -1,0 +1,13 @@
+.home-bottom-slider-box{
+    border: 1px solid var(--borderColor1);
+    padding: 2vw;
+    border-radius: .6vw;
+    height: 25vw;
+    width: 20vw;
+    position: relative;
+    bottom: 0vw;
+    transition: all .2s ease-in-out;
+}
+.home-bottom-slider-box:hover{
+    bottom: .3vw;
+}

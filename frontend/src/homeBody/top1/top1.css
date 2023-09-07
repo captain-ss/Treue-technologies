@@ -1,0 +1,14 @@
+.Homebody-top1-maincontainer{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6vw  2vw;
+    display: flex;
+
+}
+.Homebody-top1-maincontainer-heading{
+    margin-top: 6vw;
+    font-size: 3.7vw;
+    letter-spacing: -.1vw;
+    color: white;
+  font-weight: var(--fontw7);
+    }

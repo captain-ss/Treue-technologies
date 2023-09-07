@@ -1,0 +1,12 @@
+.homebody-part3-img1{
+    
+    width: 40vw;
+    height: 40vw;
+    transition: all .6s ease-in-out;
+
+}
+
+.homebody-part3-img1:hover{
+    transform: scale(1.2);
+
+}

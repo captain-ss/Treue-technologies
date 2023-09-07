@@ -1,0 +1,111 @@
+.Main-navbar {
+  background-color: var(--blue2);
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 1vw;
+  font-size: 1.2vw;
+  color: var(--fontc1);
+  font-weight: var(--fontw6);
+  padding: 1vw 1vw;
+  position: sticky;
+  top: 0vw;
+  z-index: 42;
+  font-family: var(--font1);
+  align-items: center;
+  box-shadow: 0px 4px 10px rgb(255, 255, 255,.1);
+}
+.main-Top-navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2vw;
+  color: var(--fontc1);
+  font-weight: var(--fontw5);
+  padding: 1vw 1vw;
+}
+.Main-navbar-mid-box {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+  font-weight: var(--fontw5);
+  font-size: 1.4vw;
+}
+.Main-navbar-mid-box-div{
+  display: flex;
+  cursor: pointer;
+  height: 3vw;
+}
+
+.topNavbar-icons {
+  cursor: pointer;
+  transition: all 4s ease;
+}
+.topNavbar-icons:hover {
+  color: coral;
+}
+.Navbar-popups {
+  position: absolute;
+  top: 3vw;
+  left: -5vw;
+  z-index: 45;
+
+  background-color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  text-transform: capitalize;
+  border-radius: 0.4vw;
+  width: 25vw;
+  display: flex;
+
+  flex-direction: column;
+  color: black;
+  transition: all 0.4s ease-in-out;
+  font-weight: var(--fontw6);
+}
+.Navbar-popups div {
+  padding: 1vw;
+  border-bottom: 0.1vw dashed rgb(182, 182, 182);
+}
+.Navbar-popups div:hover{
+  color:var(--color1)
+}
+
+.fixed-container{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: aliceblue;
+  left: 0%;
+  top: 0%;
+  z-index: 3;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+.fixed-container-div1{
+box-sizing: border-box;
+  padding: 4vw 0vw;
+  
+}
+.fixed-container-div1 img {
+width: 11vw;
+height: 6vw;
+}
+.fixed-container-div2{
+  box-sizing: border-box;
+  padding: 2vw 1vw;
+  color: rgb(17, 4, 4);
+  font-weight: 500;
+  background-color: var(--blue2);
+}
+.fixed-container-div2 form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.transition-up{
+  position: relative;
+  bottom: 0vw;
+}
+.transition-up:hover{
+  bottom: 1vw;
+}

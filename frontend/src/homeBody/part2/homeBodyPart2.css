@@ -1,0 +1,26 @@
+.HomeBodyPart2-main-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 4vw 8vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.HomeBodyPart2-main-container-box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.HomeBodyPart2-bottompart {
+  display: flex;
+  justify-content: space-between;
+}
+.HomeBodyPart2-bottompart div {
+  width: 45%;
+}
+
+.HomeBodyPart2-bottom-box{
+  width: 100vw;
+
+}

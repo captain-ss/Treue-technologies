@@ -1,0 +1,13 @@
+.Hmbdybnkig-small-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: 500;
+    font-family: var(--font1);
+}
+.Hmbdybnkig-small-boxes div{
+    width: 40%;
+    margin: 1vw;
+    margin-left: 0vw;
+
+}

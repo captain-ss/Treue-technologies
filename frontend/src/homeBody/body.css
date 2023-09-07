@@ -1,0 +1,33 @@
+.home-topbody-maincontainer {
+  background-color: var(--blue2);
+  padding-bottom: 5vw;
+}
+.homebody-boxes1 {
+  width: 80vw;
+  margin-left: 10vw;
+  display: flex;
+}
+.homebody-box1 {
+  width: 28vw;
+  height: fit-content;
+  margin-right: 2vw;
+  box-sizing: border-box;
+  padding: 2vw;
+  background-color: var(--inputBColor);
+  border-radius: 0.4vw;
+  overflow: hidden;
+  position: relative;
+  bottom: 0vw;
+  transition: all 0.1s ease-in-out;
+}
+.homebody-box1:hover {
+  bottom: 0.2vw;
+}
+.homebody-box1 div {
+  font-size: 2.5vw;
+
+  font-weight: 700;
+  letter-spacing: 0vw;
+  margin-bottom: 1vw;
+  color: white;
+}

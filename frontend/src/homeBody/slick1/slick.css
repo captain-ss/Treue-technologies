@@ -1,0 +1,19 @@
+.homebody-slick1-main {
+  padding: 6vw 8vw;
+  width: 80vw;
+  margin:0vw 2vw;
+}
+.homebody-slick1-box {
+  background-color: var(--color4);
+  padding: 2vw;
+  box-sizing: border-box;
+  width: 25vw;
+  height: 18vw;
+  margin: 0vw;
+  overflow: hidden;
+}
+.homebody-hovering{
+  transition: all .4s ease-in-out;
+}
+
+

@@ -1,0 +1,15 @@
+.homebody-part5-div1{
+ width: 40vw;   
+
+}
+.homebody-part5-button-box{
+    color: var(--inputBColor);
+    font-weight: 700;
+    font-size: 1.1vw;
+}
+.homebody-part5-button-box div{
+    cursor: pointer;
+}
+.homebody-part5-button-box div:hover{
+    color:var(--color1);
+}
